@@ -1,0 +1,127 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+    background-color: efefef;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:rgb(44, 42, 53);
+    color: white;
+    padding: 2rem;
+}
+header p{
+    font-size: 20px;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    padding: 1rem 1rem;
+    margin-left: 10rem;
+}
+h2 {
+    font-size: 40px;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: burlywood;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+ul{
+    text-align: center;
+}
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+
+#articulos li{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+#imgjava {
+    margin-top: 30px;
+    margin-left: 270px;
+}
+#imghtml {
+    margin-top: 30px;
+    margin-left: 185px;
+}
+#imgcss {
+    margin-top: 30px;
+    margin-left: 160px;
+}
+#imgpython {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+#imgnext {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+#imgnest {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+#imgbailar {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 175px;
+}
+#imgfutbol {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+#imgpeliculas {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 170px;
+}
+img{
+    transition: transform 0.2s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(44, 42, 53);
+    color: white;
+    padding: 2rem;
+}
+footer a {
+    color: aliceblue;
+}
+
+article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 1);
+}
